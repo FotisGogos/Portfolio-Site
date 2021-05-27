@@ -284,23 +284,20 @@ button:hover, button:focus, .button:hover, .button:focus, input[type="submit"]:h
  text-align: left;
  border: solid black 1px;
 }
-@media all and (min-width: 510px) and (max-width: 750px){
 
-  body {
-background-color: darkgreen;
-  }
+@media all and (min-width: 510px) and (max-width: 750px) {
   .grid {
     grid-template-columns: 1fr 1fr;
   }
 }
-.grid__item {
 
- width: auto;
- min-height: auto;
- margin: 0;
- padding: 20px;
- text-align: left;
- border: solid black 1px;
+.grid__item {
+  width: auto;
+  min-height: auto;
+  margin: 0;
+  padding: 20px;
+  text-align: left;
+  border: solid black 1px;
 }
 @media all and (max-width: 750px) {
   .grid {
