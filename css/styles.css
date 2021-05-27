@@ -10,14 +10,15 @@ Colors:
    --button__secondary(Olive oil): #6e7e00
 */
 :root {
-  /*Colors*/
+  /* Colors */
   --black: #0e0f0e;
   --Lightblue: #5a777f;
   --LightOcean: #37a39e;
   --NavyBlue: #1884cc;
   --Lightred: #ba5959;
   --Red: #da3a3a;
-/* Font Weight-Size */
+
+  /* Font Weight-Size */
   --Small: 400;
   --Medium: 500;
   --Large: 700;
@@ -176,7 +177,8 @@ button:hover, button:focus, .button:hover, .button:focus, input[type="submit"]:h
 	from {
 		transform: translate(0px, 50px);
 	}
-	to {
+
+  to {
 		transform: translate(200px, 50px);
 	}
 }
