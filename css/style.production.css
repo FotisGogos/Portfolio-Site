@@ -214,6 +214,8 @@ button:hover, button:focus, .button:hover, .button:focus, input[type="submit"]:h
 }
 
 .contact-page {
+  max-width: 700px;
+  margin: auto;
   text-align: center;
 }
 
@@ -368,6 +370,11 @@ button:hover, button:focus, .button:hover, .button:focus, input[type="submit"]:h
     -ms-grid-row-span: 2;
     grid-row: 1 / 3;
   }
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
 }
 
 /* Responsive page settings */
